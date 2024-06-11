@@ -1,0 +1,57 @@
+.lesson {
+    background-color: red;
+}
+.lesson:hover {
+    background-color: blue;
+}
+.lesson-2 {
+    background-color: blueviolet;
+}
+.lesson-2:active {
+    background-color: red;
+}
+.lesson-3 {
+    background-color: aqua;
+}
+.lesson-3:hover {
+    background-color: blue;
+}
+.lesson-4 {
+    background-color: gold;
+}
+.lesson-4:active {
+    background-color: red;
+}
+.lesson-5 {
+    background-color: black;
+    color: red;
+}
+.lesson-5:hover {
+background-color: blue;
+}
+input:required {
+    background-color: blue;
+}
+
+
+/* завдання 1 */
+
+
+#greycol {
+    color: grey;
+  }
+  
+  .text-box div>p {
+    color: red;
+  }
+  
+  .text-box p.yellow {
+    color: yellow;
+  }
+  
+  .text-box>h3:first-child {
+    color: pink;
+  }
+ .text-box:nth-child(5) {
+   color: green;
+ }
